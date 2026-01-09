@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-from app.condb import get_engine
+from condb import get_engine
 
 engine = get_engine()
 
