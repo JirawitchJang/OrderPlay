@@ -1,6 +1,6 @@
 # 🍔📦 OrderPlay — Food Delivery Data Engineering & Dashboard Project
 
-OrderPlay is a data engineering and analytics project built using real-world food delivery data.
+OrderPlay is a data engineering and analytics project built using real-world food delivery data.  
 The project demonstrates the full workflow from raw CSV data to a PostgreSQL database and an interactive dashboard built with Streamlit.
 
 ---
@@ -9,11 +9,11 @@ The project demonstrates the full workflow from raw CSV data to a PostgreSQL dat
 
 This project focuses on understanding food delivery operations through data by:
 
-- Cleaning and transforming raw delivery order data
-- Designing a relational database schema
-- Loading data into PostgreSQL
-- Writing SQL queries for analysis
-- Visualizing insights in an interactive dashboard
+- Cleaning and transforming raw delivery order data  
+- Designing a relational database schema  
+- Loading data into PostgreSQL  
+- Writing SQL queries for analysis  
+- Visualizing insights in an interactive dashboard  
 
 OrderPlay is designed as a **portfolio project for a Junior Data Engineer**, emphasizing clarity, structure, and real-world practices.
 
@@ -35,8 +35,8 @@ The dataset contains historical food delivery orders, including order details, r
 ---
 
 ## 🏗️ Data Pipeline
-
-```text
+:
+text
 CSV Files
    ↓
 Pandas (Data Cleaning & Transformation)
@@ -47,26 +47,25 @@ SQL Analysis
    ↓
 Streamlit Dashboard
 
+---
 
 ## 🗃 Database Schema
 
 The database is designed using a relational model with the following main tables:
 
-restaurants
+- restaurants  
+- orders  
+- order_items  
+- order_finances  
+- order_operations  
+- order_reviews  
 
-orders
+The database schema is designed using a relational model and normalized up to Third Normal Form (3NF).  
+The tables are implemented using SQL DDL with primary and foreign key constraints to ensure data integrity.
 
-order_items
+---
 
-order_finances
-
-order_operations
-
-order_reviews
-
-The database schema is designed using a relational model and normalized up to Third Normal Form (3NF). The tables are implemented using SQL DDL with primary and foreign key constraints to ensure data integrity.
-
-📈 Dashboard Features
+## 📈 Dashboard Features
 
 The Streamlit dashboard provides the following insights:
 
@@ -80,13 +79,14 @@ The Streamlit dashboard provides the following insights:
 
 ⭐ Customer Reviews — sample real user reviews
 
-The dashboard queries data directly from PostgreSQL using SQL.
-
+The dashboard queries data directly from PostgreSQL using SQL
+Ex
 
 ![Dashboard](images/db1.png)
 ![Dashboard](images/db2.png)
 ![Dashboard](images/db3.png)
-
+---
+## Setting
 
 ▶️ How to Run the Project
 1️⃣ Clone the repository
@@ -108,7 +108,8 @@ Create a database named orderplay
 5️⃣ Run the dashboard
 streamlit run app/data_v.py
 
-📝 Notes
+---
+## 📝 Notes
 
 condb.py centralizes database connection logic
 
@@ -116,10 +117,13 @@ SQL logic is separated from Python code for clarity
 
 The project follows a clean separation between data, SQL, and application layers
 
-📌 License
+---
+
+
+## 📌 License
 
 This project is created for educational and portfolio purposes.
 All data credit belongs to the original dataset author.
 # 🍔📦 OrderPlay — Food Delivery Data Engineering & Dashboard Project
 
-
+---
