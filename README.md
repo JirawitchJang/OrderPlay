@@ -82,9 +82,10 @@ The Streamlit dashboard provides the following insights:
 The dashboard queries data directly from PostgreSQL using SQL
 Ex
 
-![Dashboard](images/db1.png)
-![Dashboard](images/db2.png)
-![Dashboard](images/db3.png)
+![Dashboard](OrderPlay/db1.png)
+![Dashboard](OrderPlay/db2.png)
+![Dashboard](OrderPlay/db3.png)
+
 ---
 ## Setting
 
@@ -124,6 +125,5 @@ The project follows a clean separation between data, SQL, and application layers
 
 This project is created for educational and portfolio purposes.
 All data credit belongs to the original dataset author.
-# 🍔📦 OrderPlay — Food Delivery Data Engineering & Dashboard Project
 
 ---
