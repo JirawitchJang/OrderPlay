@@ -82,9 +82,9 @@ The Streamlit dashboard provides the following insights:
 The dashboard queries data directly from PostgreSQL using SQL
 Ex
 
-![Dashboard](OrderPlay/db1.png)
-![Dashboard](OrderPlay/db2.png)
-![Dashboard](OrderPlay/db3.png)
+![Dashboard](/db1.png)
+![Dashboard](/db2.png)
+![Dashboard](/db3.png)
 
 ---
 ## Setting
