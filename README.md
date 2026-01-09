@@ -83,6 +83,11 @@ The Streamlit dashboard provides the following insights:
 The dashboard queries data directly from PostgreSQL using SQL.
 
 
+![Dashboard](images/db1.png)
+![Dashboard](images/db2.png)
+![Dashboard](images/db3.png)
+
+
 ▶️ How to Run the Project
 1️⃣ Clone the repository
 git clone https://github.com/JirawitchJang/OrderPlay.git
