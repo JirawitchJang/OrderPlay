@@ -64,9 +64,7 @@ order_operations
 
 order_reviews
 
-Relationships are defined using primary keys and foreign keys to ensure data integrity.
-
-Create with DDL normalizetion 1F-3F
+The database schema is designed using a relational model and normalized up to Third Normal Form (3NF). The tables are implemented using SQL DDL with primary and foreign key constraints to ensure data integrity.
 
 📈 Dashboard Features
 
